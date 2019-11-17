@@ -9,7 +9,6 @@ import struct
 from sklearn.externals import joblib
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.neural_network import MLPClassifier
-from features import extraction
 import numpy as np
 from scipy.fftpack import fft
 
