@@ -10,7 +10,7 @@ Ensure that Python is installed. Download `final_eval_server.py` and `server_aut
 ### B. Arduino
 1. Using the Arduino IDE, install the FreeRTOS (by Richard Barry) and Wire libraries. 
 2. Download the necessary Arduino libraries provided into your Arduino’s libraries path.
-3. Compile the Arduino programme [code_arduino.ino] and upload to the board.
+3. Compile the Arduino programme `[code_arduino.ino]` and upload to the board.
 
 ### C. RPi
 Add the network credentials of mobile hotspots to the ‘wpa_supplicant’ configuration file on the RPi to allow the RPi to automatically connect to the network on startup.
@@ -23,6 +23,7 @@ The following steps are required to SSH into the RPi:
 3. If another RPi is being used, its IP address can be found by running `hostname -i`. 
 4. The password for our RPi is `rpi11`.
   
+```  
 Ensure that the below libraries have been installed/updated on the RPi:  
 * python 3.7
 * pySerial (serial communications)
@@ -32,6 +33,7 @@ Ensure that the below libraries have been installed/updated on the RPi:
 * numpy 1.16.2 (data processing library)
 * scikit-learn 0.21.03 (ML library)
 * scipy 1.1.0 (ML library)
+```
 
 Download the source code from the git repository into the RPi.
 Once the relevant libraries have been installed, data can be collected.
@@ -39,7 +41,7 @@ Once the relevant libraries have been installed, data can be collected.
 ## Collection of Training Data 
 1. Navigate to `pi:main/Codes/comms/Rpi`.
 2. Execute the command `python3 training.py`.
-3. Enter the name of the dance move to train, for example ‘bunny’.
+3. Enter the name of the dance move to train, for example `bunny`.
 4. The collected data would be saved in a csv file with the dance move name entered in step 3.
 5. After 1 minute has passed, the file `bunny.csv` would be generated in the Desktop directory. 
 
