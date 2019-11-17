@@ -1,4 +1,4 @@
-# CG3002 Design Project AY 19/20 Sem-1 (Group 5)
+# CG3002 Design Project AY19/20 Sem-1 (Group 5)
 
 ## Project Description
 The wearable system detects and sends certain predefined dance moves to a server. Our system requires 5 AA batteries of at least 1.2V each to run. Another power source option could be a portable power bank with 10000mAh rated battery capacity.
